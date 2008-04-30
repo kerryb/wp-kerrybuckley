@@ -2,7 +2,7 @@
 
 	<div id="content">
   	<?php if (have_posts()) : ?>
-  	  <div class="span-15 colborder">
+  	  <div class="todo span-15 colborder">
     		<?php while (have_posts()) : the_post(); ?>
 
     			<div class="post" id="post-<?php the_ID(); ?>">
