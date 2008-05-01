@@ -3,6 +3,9 @@
 <?php get_sidebar('left'); ?>
 
 	<div id="content" class="todo span-16 border">
+	  <?php include (TEMPLATEPATH . '/searchform.php'); ?>
+		<hr />
+		
   	<?php if (have_posts()) : ?>
   		<?php while (have_posts()) : the_post(); ?>
   			<div class="post" id="post-<?php the_ID(); ?>">
