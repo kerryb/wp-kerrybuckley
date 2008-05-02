@@ -6,6 +6,7 @@
 
 <title><?php bloginfo('name'); ?> <?php if ( is_single() ) { ?> &raquo; Blog Archive <?php } ?> <?php wp_title(); ?></title>
 
+<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/stylesheets/custom.css" type="text/css" media="screen, projection" />
 <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/stylesheets/blueprint/screen.css" type="text/css" media="screen, projection" />
 <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>stylesheets/blueprint/print.css" type="text/css" media="print" /> 
 <!--[if IE]><link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>stylesheets/blueprint/ie.css" type="text/css" media="screen, projection" /><![endif]-->
@@ -15,8 +16,8 @@
 
 <?php wp_head(); ?>
 </head>
-<body>
-<div id="page" class="container showgrid">
+<body class="blog">
+<div id="page" class="container">
 
 
 <div id="header">
@@ -25,4 +26,3 @@
 		<div class="description"><?php bloginfo('description'); ?></div>
 	</div>
 </div>
-<hr />
