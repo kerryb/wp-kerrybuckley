@@ -1,4 +1,4 @@
-<div id="meta">
+<div id="meta" class="box">
 	<h2>Meta</h2>
 	<ul>
 		<?php wp_register(); ?>
