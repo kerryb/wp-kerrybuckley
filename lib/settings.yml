@@ -1,0 +1,4 @@
+# refer to http://www.yaml.org/spec/1.1/ for clarification on YAML collections
+KerryBuckley:
+  plugins:
+    - kerrybuckley

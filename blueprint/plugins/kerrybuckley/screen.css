@@ -1,0 +1,22 @@
+/* Non-Blueprint styles */
+
+body.blog {
+	font-family: Optima, "Century Gothic", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	background: white url(../images/background.gif) no-repeat top center;
+}
+
+/*.blog h1, .blog h2, .blog h3 {
+	font-family: "Century Gothic";
+}*/
+
+.blog a, .blog a:visited {
+	text-decoration: none;
+}
+
+.blog a:hover {
+	text-decoration: underline;
+}
+
+#sidebar-left, #sidebar-right {
+	margin-top: 18px;
+}
