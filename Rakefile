@@ -25,5 +25,5 @@ end
 task :css do
   # load 'compress.rb'
   cd 'lib'
-  system "ruby compress.rb -o../#{stylesheet_dir}"
+  system "ruby compress.rb -pKerryBuckley -o../#{stylesheet_dir}"
 end
