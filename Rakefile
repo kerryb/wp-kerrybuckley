@@ -20,6 +20,7 @@ end
 
 task :copy_files do
   cp_r Dir.glob('php/*'), theme_dir
+  cp 'screenshot.png', theme_dir
   cp_r 'images', theme_dir
 end
 
